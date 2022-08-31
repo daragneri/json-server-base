@@ -14,5 +14,13 @@
       "age": 38,
       "id": 2
     }
+
+  ],
+  "movies": [
+    {
+      "title": "dois caras legais",
+      "imdb": "dois caras legais",
+      "gender": "dois caras legais"
+    }
   ]
 }
