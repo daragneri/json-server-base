@@ -6,6 +6,13 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "duckpato12@mail.com",
+      "password": "$2a$10$zOaEZs46OEskxU/5yuNOr.cxFMVPFdMfp6/.cLCcHqSBtgXjfwt1y",
+      "name": "Kenzinho23",
+      "age": 38,
+      "id": 2
     }
   ]
 }
