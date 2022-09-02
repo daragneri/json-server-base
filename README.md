@@ -129,4 +129,4 @@ Nesse endpoint podemos atualizar os genêros selecionados pelo usuário
 "movies_list": ["Drama", "Action"]
 ```
 
-Nesse endpoint podemos atualizar os genêros selecionados pelo usuário
+Nesse endpoint podemos atualizar a lista de filmes selecionados pelo usuário
