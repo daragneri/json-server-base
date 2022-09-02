@@ -17,7 +17,7 @@ O url base da API é https://final-project-m3.herokuapp.com
 
 <h2 align ='center'> Criação de usuário </h2>
 
-POST /register <br/>
+POST /register
 
 ```json
 {
