@@ -24,6 +24,7 @@ POST /register
   "name": "John Doe",
   "email": "johndoe@email.com",
   "password": "123456",
+  "confirmPassword": "123456"
   "genres": [],
   "movie_list": []
 }
@@ -37,8 +38,9 @@ Caso dê tudo certo, a resposta será assim:
 	"user": {
 		"email": "johndoe@email.com",
 		"name": "John Doe",
-		"confirmPassword": "123456",
-		"id": 5
+		"id": 5,
+		"genres": [],
+  		"movie_list": []
 		"
 	}
 }
