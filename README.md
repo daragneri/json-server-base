@@ -6,7 +6,6 @@
 Este é o backend da aplicação SuperDucks, o projeto final de front-end do terceiro módulo da Kenzie - Uma aplicação para encontrar seus filmes favoritos! O objetivo dessa aplicação é conseguir recomendar filmes aos usuários e conecta-los com facilidade as telas.
 </p>
 
-
 Esse é o repositório com a base de JSON-Server + JSON-Server-Auth, feita para ser usada no desenvolvimento da API no Projetos final de Front-end.
 
 ## Endpoints
@@ -108,6 +107,7 @@ Caso dê tudo certo, a resposta será assim:
 		"id": 5
 	}
 }
+```
 
 ## Rotas que necessitam de autorização
 
