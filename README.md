@@ -41,7 +41,6 @@ Caso dê tudo certo, a resposta será assim:
 		"id": 5,
 		"genres": [],
   		"movie_list": []
-		"
 	}
 }
 ```
