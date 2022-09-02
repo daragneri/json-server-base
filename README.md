@@ -10,7 +10,7 @@ Esse é o repositório com a base de JSON-Server + JSON-Server-Auth, feita para 
 
 ## Endpoints
 
-A API tem um total de 4 endpoints, sendo voltada ao usuário - podendo cadastrar seu perfil, listar seus filmes favoritos e lsitar gêneros favoritos. <br/>
+A API tem um total de 7 endpoints, sendo voltada ao usuário - podendo cadastrar seu perfil, listar seus filmes favoritos e lsitar gêneros favoritos. <br/>
 O url base da API é https://final-project-m3.herokuapp.com
 
 ## Rotas que não precisam de autenticação
@@ -24,7 +24,8 @@ POST /register
   "name": "John Doe",
   "email": "johndoe@email.com",
   "password": "123456",
-  "confirmPassword": "123456"
+  "genres": [],
+  "movie_list": []
 }
 ```
 
@@ -38,6 +39,7 @@ Caso dê tudo certo, a resposta será assim:
 		"name": "John Doe",
 		"confirmPassword": "123456",
 		"id": 5
+		"
 	}
 }
 ```
@@ -130,3 +132,28 @@ Nesse endpoint podemos atualizar os genêros selecionados pelo usuário
 ```
 
 Nesse endpoint podemos atualizar a lista de filmes selecionados pelo usuário
+
+`PATCH /users/id - FORMATO DA REQUISIÇÃO`
+
+```json
+"name": "John Doe",
+```
+
+Nesse endpoint podemos alterar o nome do usuário
+
+`PATCH /users/id - FORMATO DA REQUISIÇÃO`
+
+```json
+"password": "123456",
+"confirmPassword": "123456"
+```
+
+Nesse endpoint podemos alterar a senha do usuário
+
+`PATCH /users/id - FORMATO DA REQUISIÇÃO`
+
+```json
+"url": "123456",
+```
+
+Nesse endpoint podemos alterar a foto do usuário
