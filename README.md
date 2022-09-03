@@ -87,7 +87,7 @@ Email com formato errado:
 
 <h2 align = "center"> Login </h2>
 
-`POST /login <br/> FORMATO DA REQUISIÇÃO`
+`POST /login - FORMATO DA REQUISIÇÃO`
 
 ```json
 {
@@ -129,7 +129,7 @@ Nesse endpoint podemos atualizar os genêros selecionados pelo usuário
 `PATCH /users/id - FORMATO DA REQUISIÇÃO`
 
 ```json
-"movies_list": ["Drama", "Action"]
+"movies_list": ["Resident evil", "Forest Gump"]
 ```
 
 Nesse endpoint podemos atualizar a lista de filmes selecionados pelo usuário
@@ -154,7 +154,7 @@ Nesse endpoint podemos alterar a senha do usuário
 `PATCH /users/id - FORMATO DA REQUISIÇÃO`
 
 ```json
-"url": "123456",
+"url": "URL da foto",
 ```
 
-Nesse endpoint podemos alterar a foto do usuário
+Nesse endpoint podemos alterar a foto de perfil do usuário
